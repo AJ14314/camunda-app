@@ -6,14 +6,14 @@ This project is a Spring Boot application integrated with Camunda BPM for proces
 ## Prerequisites
 
 - Java 17
-- Maven 3.6+
+- Gradle 7.0+
 - An IDE (e.g., IntelliJ IDEA)
 
 ## Project Structure
 
 - `src/main/java/com/anand/controllers/HomeController.java`: Contains REST endpoints for home and process execution.
 - `src/main/java/com/anand/services/UserDepartmentService.java`: A service component that provides user department information.
-- `pom.xml`: Maven configuration file with dependencies and plugins.
+- `build.gradle`: Gradle configuration file with dependencies and plugins.
 
 ## Dependencies
 
@@ -29,7 +29,7 @@ The project uses the following dependencies:
 To build the project, run the following command:
 
 ```sh
-mvn clean install
+gradle clean build
 ```
 
 ## Running the Application
@@ -37,7 +37,7 @@ mvn clean install
 To run the application, use the following command:
 
 ```sh
-mvn spring-boot:run
+gradle bootRun
 ```
 
 ## REST Endpoints

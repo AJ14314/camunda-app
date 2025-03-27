@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="184c78a3-6116-4704-b8f3-3bfd547c197a" name="Changes" comment="">
+    <list default="true" id="184c78a3-6116-4704-b8f3-3bfd547c197a" name="Changes" comment="converted the maven project to gradle project.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camunda-h2-database.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/camunda-h2-database.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +68,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build camunda-app.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -118,12 +118,25 @@
       <updated>1742990161078</updated>
       <workItem from="1742990162867" duration="2574000" />
       <workItem from="1743048213843" duration="19779000" />
-      <workItem from="1743071212253" duration="27000" />
+      <workItem from="1743071212253" duration="399000" />
     </task>
+    <task id="LOCAL-00001" summary="converted the maven project to gradle project.">
+      <option name="closed" value="true" />
+      <created>1743071405330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743071405330</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="converted the maven project to gradle project." />
+    <option name="LAST_COMMIT_MESSAGE" value="converted the maven project to gradle project." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
