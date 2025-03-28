@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_13ibjw3" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.33.1" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.22.0">
-  <bpmn:collaboration id="aml_subprocesspractise">
+  <bpmn:collaboration id="aml_subprocess_practise">
     <bpmn:participant id="Participant_15brwc6" name="D2C AML Process" processRef="Process_0702igi" />
   </bpmn:collaboration>
   <bpmn:process id="Process_0702igi" isExecutable="true">
@@ -156,7 +156,7 @@
     <bpmn:sequenceFlow id="Flow_07p153c" sourceRef="Activity_0hyig6r" targetRef="Event_1nq66sf" />
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
-    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="aml_subprocesspractise">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="aml_subprocess_practise">
       <bpmndi:BPMNShape id="Participant_15brwc6_di" bpmnElement="Participant_15brwc6" isHorizontal="true">
         <dc:Bounds x="160" y="80" width="1700" height="990" />
         <bpmndi:BPMNLabel />
