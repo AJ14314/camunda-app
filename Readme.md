@@ -32,6 +32,14 @@ To build the project, run the following command:
 gradle clean build
 ```
 
+## Converting Maven to Gradle
+
+To initialize gradle in a Maven project, use the following command:
+
+```sh
+gradle init --type pom
+```
+
 ## Running the Application
 
 To run the application, use the following command:
